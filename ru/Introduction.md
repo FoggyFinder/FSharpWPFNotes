@@ -24,7 +24,7 @@
 - PresentationCore.dll
 - PresentationFramework.dll
 
-Если вы создали консольное приложение в `VisualStudio` то ваш код может выглядеть подобным образом (не забудьте изменить в настройках приложения тип выходных данных с консольного на Windows
+Если вы создали консольное приложение в `VisualStudio` то ваш код может выглядеть подобным образом (не забудьте изменить в настройках приложения тип выходных данных с консольного на Windows)
 
 ```fsharp
 open System
@@ -43,7 +43,7 @@ app.Run win
 |> ignore
 ```
 
-Кроме этого вы можете читать ваши XAML - файлы через `XamlReader` и разбирать их используя метод `Parse`:
+Кроме этого вы можете читать ваши XAML - файлы через [`XamlReader`](https://msdn.microsoft.com/ru-ru/library/system.windows.markup.xamlreader(v=vs.110).aspx) и разбирать их используя метод [`Parse`](https://msdn.microsoft.com/ru-ru/library/cc663033(v=vs.110).aspx). Пример:
 
 ```fsharp
 open System
