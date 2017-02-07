@@ -1,6 +1,7 @@
 ## Содержание  ##
 
 1. [Введение](ru/Introduction.md)
+2. [Конвереры значений](ru/ValueConverter.md)
 1. [FsVM - свойства](ru/ex1FSVM.md)
 1. [FsVM - команды](ru/Command.md)
 1. [FsVM - валидация](ru/Validation.md)
