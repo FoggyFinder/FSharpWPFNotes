@@ -93,3 +93,28 @@ var.Value |> printfn "%s" //=> Hello
 |Signal.validate | `validate : validator : (ValidationCollector<'a> -> ValidationCollector<'b>) -> ISignal<'a> -> IValidatedSignal<'a, 'b>`
 | |Проверяет сигнал с помощью цепочки валидаторов
 
+Пример
+
+```fsharp
+let pairToOption (b, v) = if b then Some v else None
+let parse = Int32.TryParse >> pairToOption
+    
+//создаем изменяемую переменную
+let input = Mutable.create ""
+//значение по умолчанию
+let defValue = 0
+//результирующий сигнал
+let output = 
+    input 
+    |> Signal.choose parse defValue 
+    |> Signal.filter (fun v -> v < 10) defValue
+    
+input.Value <- "test"
+output.Value |> printfn "%i" //0
+
+input.Value <- "3"
+output.Value |> printfn "%i" //3
+
+input.Value <- "12"
+output.Value |> printfn "%i" //3
+```
