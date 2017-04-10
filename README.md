@@ -6,7 +6,7 @@
 1. [FsVM - команды](ru/Command.md)
 1. [FsVM - валидация](ru/Validation.md)
 2. [Gjallarhorn - базовые сведения](ru/IntroductionGjl.md)
-
+3. [Использование Gjallarhorn вместе с WPF](ru/GjlWpf.md)
 
 ---------
 
