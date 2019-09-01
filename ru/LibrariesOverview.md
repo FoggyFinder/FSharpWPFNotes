@@ -24,9 +24,9 @@
 | -------------    |:--:          |:--:        |:--:         |:--:        | :---:      | :---:
 | Примеры          | +            | +          | +           | -          | +          | +  
 | Паттерн          | Elmish       | MVC-like   | Elmish      | MVVM       | MVVM       | MVC 
-| Последний релиз  | 10.03.2018   | 25.04.2019 | 04.06.2019  | 06.03.2017 | 06.01.2016 | 26.11.2015  
-| Пакет            | [1.0.0-beta7](https://www.nuget.org/packages/Gjallarhorn.Bindable.Wpf/)  | [2.2.4](https://www.nuget.org/packages/VinylUI/)  | [3.1.0](https://www.nuget.org/packages/Elmish.WPF)  | [1.0.7](https://www.nuget.org/packages/FSharp.ViewModule.Core/)  | [1.1.1](https://www.nuget.org/packages/RZ.Wpf/)  | [0.7.1](https://www.nuget.org/packages/FSharp.Desktop.UI/)  |
-| Framework        | netstandard2.0  | 4.5.1   | 4.5         | 4.5        | 4.5        | 4.5  
+| Последний релиз  | 10.03.2018   | 20.08.2019 | 22.08.2019  | 06.03.2017 | 06.01.2016 | 26.11.2015  
+| Пакет            | [1.0.0-beta7](https://www.nuget.org/packages/Gjallarhorn.Bindable.Wpf/)  | [2.3.0](https://www.nuget.org/packages/VinylUI/)  | [3.2.1](https://www.nuget.org/packages/Elmish.WPF)  | [1.0.7](https://www.nuget.org/packages/FSharp.ViewModule.Core/)  | [1.1.1](https://www.nuget.org/packages/RZ.Wpf/)  | [0.7.1](https://www.nuget.org/packages/FSharp.Desktop.UI/)  |
+| Framework        | netstandard2.0  | 4.5.1   | 4.6.1         | 4.5        | 4.5        | 4.5  
 
 
 Оценки поставлены субъективно по следующим критериям:
